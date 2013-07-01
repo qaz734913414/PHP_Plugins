@@ -1,0 +1,58 @@
+<html><head><title>AJAX GET Example</title>
+</head><body><center />
+<h1>Loading a page in-between <font face='Courier New'>&lt;div&gt;&hellip;&lt;/div&gt;</font> tags</h1>
+<div id='info'>The contents of this DIV will be replaced</div>
+
+<script type="text/JavaScript">
+
+DOPHP_JS_GetAjaxRequest('ajaxget.php',
+   'url=http://amazon.com/mobile',
+   document.getElementById('info'))
+
+function DOPHP_JS_GetAjaxRequest(url, params, target)
+{
+   nocache = "&nocache=" + Math.random() * 1000000
+   request = new DOPHP_JS_AjaxRequest()
+
+	request.onreadystatechange = function()
+   {
+      if (this.readyState == 4)
+         if (this.status == 200)
+            if (this.responseText != null)
+               target.innerHTML = this.responseText
+// You can remove these two alerts after debugging
+            else alert("Ajax error: No data received")
+         else alert( "Ajax error: " + this.statusText)
+   }
+
+   request.open("GET", url + "?" + params + nocache, true)
+   request.send(null)
+}
+
+function DOPHP_JS_AjaxRequest()
+{
+   try
+   {
+      var request = new XMLHttpRequest()
+   }
+   catch(e1)
+   {
+      try
+      {
+         request = new ActiveXObject("Msxml2.XMLHTTP")
+      }
+      catch(e2)
+      {
+         try
+         {
+            request = new ActiveXObject("Microsoft.XMLHTTP")
+         }
+         catch(e3)
+         {
+            request = false
+         }
+      }
+   }
+   return request
+}
+</script>
