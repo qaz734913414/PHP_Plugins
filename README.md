@@ -6,10 +6,16 @@ PHP功能插件开发应用
 通过本代码库提供的模块源代码进行二次开发，可减少PHP编程开发所需要的时间。
 可正常运行于各种PHP环境平台，为从事PHP网站项目开发的人员提供有力的支持！
 联系我：admin@4u4v.net
-博客：http://shuimu.js.cn
+博客：http://shuimu.js.cn 
+程序运行演示地址如下：
+http://4u4v.sinaapp.com/PHP_Plugins/plugin1.php
+.....
+http://4u4v.sinaapp.com/PHP_Plugins/plugin99.php
 *********************************************
 PHP plug-in for program development
 Description: 
 Each plug-in program has comment for use, including plug-in features and functions required parameter descriptions.
 By this repository provide module source code use in the second development, will be reduce the time of PHP programming.
-It can run on each PHP environmental platform, for PHPer in web project development provide strong support!
+It can run on each PHP environmental platform, for PHPer in web project development provide strong support! 
+Programs run demo address enumerated below:
+http://4u4v.sinaapp.com/PHP_Plugins/plugin25.php
