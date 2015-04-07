@@ -5,14 +5,14 @@
  *Licence: GPL
  *Description:
  *PHP功能插件开发应用
- *Blog: shuimu.js.cn
+ *Blog: www.4u4v.net
  *Email: admin@4u4v.net
  **********************/
 
 $agent = 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; ' .
          'rv:1.9.1) Gecko/20090624 Firefox/3.5 (.NET CLR ' .
          '3.5.30729)';
-$url   = 'http://shuimu.js.cn';
+$url   = 'http://www.4u4v.net';
 
 echo DOPHP_CurlGetContents($url, $agent);
 

@@ -5,16 +5,16 @@
  *Licence: GPL
  *Description:
  *PHP功能插件开发应用
- *Blog: shuimu.js.cn
+ *Blog: www.4u4v.net
  *Email: admin@4u4v.net
  **********************/
 
-$url         = "http://shuimu.js.cn/";
+$url         = "http://www.4u4v.net/";
 $html        = file_get_contents($url);
 $title       = "RSS version of '$url'";
 $description = "The website '$url' converted to an RSS feed";
 $webmaster   = "admin@4u4v.net";
-$copyright   = "Translator Copyright 2013 shuimu.js.cn";
+$copyright   = "Translator Copyright 2013 www.4u4v.net";
 
 header('Content-Type: text/xml');
 echo DOPHP_HTMLToRSS($html, $title, $description, $url,

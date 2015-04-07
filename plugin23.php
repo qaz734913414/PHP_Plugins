@@ -5,11 +5,11 @@
  *Licence: GPL
  *Description:
  *PHP功能插件开发应用
- *Blog: shuimu.js.cn
+ *Blog: www.4u4v.net
  *Email: admin@4u4v.net
  **********************/
 
-$page   = "http://shuimu.js.cn";
+$page   = "http://www.4u4v.net";
 echo      "Checking $page<br />\n"; ob_flush(); flush();
 $result = DOPHP_CheckLinks($page, 2, 180);
 

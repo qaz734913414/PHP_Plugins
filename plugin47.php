@@ -5,11 +5,11 @@
  *Licence: GPL
  *Description:
  *PHP功能插件开发应用
- *Blog: shuimu.js.cn
+ *Blog: www.4u4v.net
  *Email: admin@4u4v.net
  **********************/
 
-$page     = "http://shuimu.js.cn";
+$page     = "http://www.4u4v.net";
 $datafile = "urldata.txt";
 $result   = DOPHP_PageUpdated($page, $datafile);
 echo      "<pre>(1st call) The URL '$page' is ";

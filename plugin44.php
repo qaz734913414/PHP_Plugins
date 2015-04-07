@@ -5,11 +5,11 @@
  *Licence: GPL
  *Description:
  *PHP功能插件开发应用
- *Blog: shuimu.js.cn
+ *Blog: www.4u4v.net
  *Email: admin@4u4v.net
  **********************/
 
-$long     = "http://shuimu.js.cn/php-through-the-array-list-foreach-each-for-methods.html";
+$long     = "http://www.4u4v.net/php-through-the-array-list-foreach-each-for-methods.html";
 $redirect = "PHP_Plugins/go.php";
 $len      = 5;
 $file     = "shorturls.txt";

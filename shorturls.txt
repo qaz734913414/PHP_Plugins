@@ -1,2 +1,2 @@
 95a37|http://pluginphp.com/longfoldername/index.html
-ce5c5|http://shuimu.js.cn/php-through-the-array-list-foreach-each-for-methods.html
+ce5c5|http://www.4u4v.net/php-through-the-array-list-foreach-each-for-methods.html

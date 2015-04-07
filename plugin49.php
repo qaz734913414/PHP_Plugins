@@ -5,11 +5,11 @@
  *Licence: GPL
  *Description:
  *PHP功能插件开发应用
- *Blog: shuimu.js.cn
+ *Blog: www.4u4v.net
  *Email: admin@4u4v.net
  **********************/
 
-$url = "http://shuimu.js.cn/feed";
+$url = "http://www.4u4v.net/feed";
 $rss = file_get_contents($url);
 echo   DOPHP_RSSToHTML($rss);
 

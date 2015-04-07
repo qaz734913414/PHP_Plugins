@@ -5,11 +5,11 @@
  *Licence: GPL
  *Description:
  *PHP功能插件开发应用
- *Blog: shuimu.js.cn
+ *Blog: www.4u4v.net
  *Email: admin@4u4v.net
  **********************/
 
-$page   = "http://shuimu.js.cn";
+$page   = "http://www.4u4v.net";
 $result = DOPHP_GetTitleFromURL($page);
 
 if (!$result) echo "网址为：'$page'，该网站无法访问！";

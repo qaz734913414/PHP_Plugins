@@ -5,11 +5,11 @@
  *Licence: GPL
  *Description:
  *PHP功能插件开发应用
- *Blog: shuimu.js.cn
+ *Blog: www.4u4v.net
  *Email: admin@4u4v.net
  **********************/
 
-$result = DOPHP_GetLinksFromURL("http://shuimu.js.cn");
+$result = DOPHP_GetLinksFromURL("http://www.4u4v.net");
 
 echo "<ul>";
 for ($j = 0 ; $j < count($result) ; ++$j)

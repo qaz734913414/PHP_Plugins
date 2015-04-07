@@ -5,13 +5,13 @@
  *Licence: GPL
  *Description:
  *PHP功能插件开发应用
- *Blog: shuimu.js.cn
+ *Blog: www.4u4v.net
  *Email: admin@4u4v.net
  **********************/
 
 $name    = "Jacky";
 $email   = "admin@4u4v.net";
-$website = "http://shuimu.js.cn";
+$website = "http://www.4u4v.net";
 $message = "Don't you step on my Blue suede shoes.";
 
 echo "Name=<i>$name</i>, Email=<i>$email</i>, Website=<i>" .
